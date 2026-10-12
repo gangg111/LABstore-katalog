@@ -8,6 +8,7 @@
       "summary": "Terminy odbioru odzieży roboczej zamiast papierowej książeczki",
       "description": "Pilnuje, kiedy przysługuje kolejny odbiór ciuchów roboczych: rodzaj, rozmiar, ilość, data wydania i co ile miesięcy. Przypomnienia o terminach, historia odbiorów, odkładanie przypomnień, eksport i import danych.",
       "icon": "icons/ciucholand.png",
+      "banner": "banners/ciucholand.jpg",
       "screenshots": [
         "https://raw.githubusercontent.com/gangg111/Ciucholand/main/screenshot.jpg"
       ]
@@ -20,6 +21,7 @@
       "summary": "DeepSeek Harness na telefonie, bez Termuxa i roota, po polsku",
       "description": "Pełny DeepSeek Harness w jednym APK: polski interfejs, komplet narzędzi programistycznych (kompilatory, Python, Node, .NET 10, PowerShell), pluginy, TTS i ekran Code, który przenosi sesje razem z plikami projektu między komputerem a telefonem przez wbudowany Tailscale.",
       "icon": "icons/dsh-mobile.png",
+      "banner": "banners/dsh-mobile.jpg",
       "screenshots": [
         "https://raw.githubusercontent.com/gangg111/DeepSeek-Harness-Mobile/main/docs/screenshots/screenshot-1.jpg",
         "https://raw.githubusercontent.com/gangg111/DeepSeek-Harness-Mobile/main/docs/screenshots/screenshot-2.jpg"
@@ -33,6 +35,7 @@
       "summary": "Polski lektor AI do filmów z napisami, prosto na telefonie",
       "description": "Bierze film z napisami, generuje z nich naturalnie brzmiący głos lektora po polsku (Edge-TTS albo OpenAI TTS) i miksuje go z oryginalną ścieżką, z zachowaniem synchronizacji. Kolejka filmów, pełna kontrola brzmienia (głośność LUFS, tempo, tonacja, offset), podgląd 90-sekundowego fragmentu i słownik wymowy. Zakładka PC to pilot do Lektora AI na komputerze: na żywo kolejka, faza renderu, ETA i log, START/STOP także spoza domu.",
       "icon": "icons/lektor-ai.png",
+      "banner": "banners/lektor-ai.jpg",
       "screenshots": [
         "https://raw.githubusercontent.com/gangg111/Lektor_AI_Mobile/main/images/01-kolejka.jpg",
         "https://raw.githubusercontent.com/gangg111/Lektor_AI_Mobile/main/images/02-ustawienia.jpg",
@@ -48,6 +51,7 @@
       "summary": "Upscaling, poprawa twarzy i usuwanie tła w 100% offline, na NPU",
       "description": "Lokalna obróbka zdjęć bez wysyłania czegokolwiek do sieci: upscaling ×4 (Real-ESRGAN), poprawa twarzy, wyostrzanie, odszumianie, usuwanie znaku wodnego i tła (IS-Net). Modele liczą się na NPU Hexagon albo GPU Adreno przez ONNX Runtime QNN. Wymaga telefonu z układem Qualcomm Snapdragon (arm64).",
       "icon": "icons/ai-image-enhancer.png",
+      "banner": "banners/ai-image-enhancer.jpg",
       "screenshots": []
     },
     {
@@ -58,6 +62,7 @@
       "summary": "Menedżer pobierania w stylu JDownloadera: YouTube, TikTok i hostingi",
       "description": "Pobieranie plików z hostingów oraz filmów i muzyki z YouTube, TikToka i innych serwisów. Wiele linków naraz, wybór jakości wideo (do 4K) albo samo audio (M4A bez konwersji lub MP3 przez FFmpeg), pauza i zatrzymanie, postęp na bieżąco, menedżer kont premium. Inspirowany JDownloaderem 2.",
       "icon": "icons/adownloader.png",
+      "banner": "banners/adownloader.jpg",
       "screenshots": [
         "https://raw.githubusercontent.com/gangg111/ADownloader/main/img/6.jpg",
         "https://raw.githubusercontent.com/gangg111/ADownloader/main/img/2.jpg",

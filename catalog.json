@@ -10,7 +10,7 @@
       "icon": "icons/ciucholand.png",
       "banner": "banners/ciucholand.jpg",
       "screenshots": [
-        "https://raw.githubusercontent.com/gangg111/Ciucholand/main/screenshot.jpg"
+        "screenshots/ciucholand-1.jpg"
       ]
     },
     {
@@ -23,8 +23,8 @@
       "icon": "icons/dsh-mobile.png",
       "banner": "banners/dsh-mobile.jpg",
       "screenshots": [
-        "https://raw.githubusercontent.com/gangg111/DeepSeek-Harness-Mobile/main/docs/screenshots/screenshot-1.jpg",
-        "https://raw.githubusercontent.com/gangg111/DeepSeek-Harness-Mobile/main/docs/screenshots/screenshot-2.jpg"
+        "screenshots/dsh-mobile-1.jpg",
+        "screenshots/dsh-mobile-2.jpg"
       ]
     },
     {
@@ -37,10 +37,10 @@
       "icon": "icons/lektor-ai.png",
       "banner": "banners/lektor-ai.jpg",
       "screenshots": [
-        "https://raw.githubusercontent.com/gangg111/Lektor_AI_Mobile/main/images/01-kolejka.jpg",
-        "https://raw.githubusercontent.com/gangg111/Lektor_AI_Mobile/main/images/02-ustawienia.jpg",
-        "https://raw.githubusercontent.com/gangg111/Lektor_AI_Mobile/main/images/03-podglad.jpg",
-        "https://raw.githubusercontent.com/gangg111/Lektor_AI_Mobile/main/images/04-pc.jpg"
+        "screenshots/lektor-ai-1.jpg",
+        "screenshots/lektor-ai-2.jpg",
+        "screenshots/lektor-ai-3.jpg",
+        "screenshots/lektor-ai-4.jpg"
       ]
     },
     {
@@ -64,12 +64,12 @@
       "icon": "icons/adownloader.png",
       "banner": "banners/adownloader.jpg",
       "screenshots": [
-        "https://raw.githubusercontent.com/gangg111/ADownloader/main/img/6.jpg",
-        "https://raw.githubusercontent.com/gangg111/ADownloader/main/img/2.jpg",
-        "https://raw.githubusercontent.com/gangg111/ADownloader/main/img/5.jpg",
-        "https://raw.githubusercontent.com/gangg111/ADownloader/main/img/3.jpg",
-        "https://raw.githubusercontent.com/gangg111/ADownloader/main/img/1.jpg",
-        "https://raw.githubusercontent.com/gangg111/ADownloader/main/img/4.jpg"
+        "screenshots/adownloader-1.jpg",
+        "screenshots/adownloader-2.jpg",
+        "screenshots/adownloader-3.jpg",
+        "screenshots/adownloader-4.jpg",
+        "screenshots/adownloader-5.jpg",
+        "screenshots/adownloader-6.jpg"
       ]
     },
     {

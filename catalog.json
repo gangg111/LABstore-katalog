@@ -49,7 +49,7 @@
       "repo": "gangg111/AI-Image-Enhancer-Mobile",
       "category": "Zdjęcia",
       "summary": "Upscaling, poprawa twarzy i usuwanie tła w 100% offline, na NPU",
-      "description": "Lokalna obróbka zdjęć bez wysyłania czegokolwiek do sieci: upscaling ×4 (Real-ESRGAN), poprawa twarzy, wyostrzanie, odszumianie, usuwanie znaku wodnego i tła (IS-Net). Modele liczą się na NPU Hexagon albo GPU Adreno przez ONNX Runtime QNN. Wymaga telefonu z układem Qualcomm Snapdragon (arm64).",
+      "description": "Lokalna obróbka zdjęć bez wysyłania czegokolwiek do sieci: upscaling do ×8 (Real-ESRGAN), poprawa twarzy, wyostrzanie, odszumianie, usuwanie znaku wodnego i tła (IS-Net). Modele liczą się na NPU Hexagon albo GPU Adreno przez ONNX Runtime QNN. Wymaga telefonu z układem Qualcomm Snapdragon (arm64).",
       "icon": "icons/ai-image-enhancer.png",
       "banner": "banners/ai-image-enhancer.jpg",
       "screenshots": [

@@ -1,5 +1,6 @@
 """Zrzut ekranu -> grafika do sklepu (1080x1920): tlo, naglowek, podpis, telefon ze zrzutem.
-Uzycie: python promo.py <zrzut> <wyjscie.jpg> "<NAGLOWEK>" "<podpis>" <kolor_tla> <kolor_akcentu>"""
+Uzycie: python promo.py <zrzut> <wyjscie.jpg> "<NAGLOWEK>" "<podpis>" <kolor_tla> <kolor_akcentu> [caly]
+"caly" = zmniejsz telefon, zeby byl widoczny w calosci."""
 import sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
@@ -36,7 +37,7 @@ def wrap(d, text, f, maxw):
     return lines + [cur]
 
 
-def main(src, out, title, sub, bg, accent):
+def main(src, out, title, sub, bg, accent, full=""):
     bg, accent = hexc(bg), hexc(accent)
     img = Image.new("RGB", (W, H), bg)
     # delikatny gradient: jasniej u gory
@@ -58,12 +59,15 @@ def main(src, out, title, sub, bg, accent):
 
     # telefon: ekran 740 px szerokosci, ramka 22 px, dol uciety jak w Play
     shot = Image.open(src).convert("RGB")
+    b = 22
+    py = y + 60 if full else max(y + 60, 600)
     sw = 740
+    if full:  # caly telefon miesci sie nad dolna krawedzia
+        sw = min(sw, round((H - py - 70 - 2 * b) * shot.width / shot.height))
     sh = round(shot.height * sw / shot.width)
     shot = shot.resize((sw, sh), Image.LANCZOS)
-    b = 22
     pw, ph = sw + 2 * b, sh + 2 * b
-    px, py = (W - pw) // 2, max(y + 60, 600)
+    px = (W - pw) // 2
 
     shadow = Image.new("L", (W, H), 0)
     ImageDraw.Draw(shadow).rounded_rectangle((px, py + 20, px + pw, py + ph + 20), 90, fill=150)
